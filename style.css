@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.container h1{
+    font-size: 2.5em;
+}
+
+.btn-start, .next-round, .score, .game-ended, .guide{
+    margin-top: 1em;
+}
+
+.board{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+    border: 5px solid gray;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(150, 127, 196);
+}
+
+.board h2{
+    opacity: 0.4;
+}
+
+.player1-button, .player2-button{
+    height: inherit;
+    background-color: rgb(73, 60, 60);
+    border-style: none;
+    color: white;
+    /* border-radius: 0.3em; */
+    width: 1.8em;
+}
+
+.board h2{
+    font-weight: lighter;
+}
+
+.game-ended{
+    font-size: 1.5em;
+}
+
+.btn-start, .next-round {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.btn-start, .next-round {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            cursor: pointer;
+          }
+
+.btn-start:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+}
+
+.guide{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+         
+         
